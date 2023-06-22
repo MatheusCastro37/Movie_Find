@@ -22,6 +22,7 @@ main#container {
     padding-left: 1em;
     background: transparent;
     border: none;
+    color: #FFFFFF;
 }
 
 #searchMovie{
@@ -51,22 +52,28 @@ main#container {
     color: #FFFFFF;
 }
 
-#genres{
+#genres {
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.type{
+.type {
     font-size: 16px;
     font-weight: 200;
     background-color: #999999;
     border: 1px solid transparent;
     border-radius: 5px;
-    margin: 10px 0;
+    margin: 5px 0;
     padding: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .infosMovie{
-    width: 5em;
+    width: 10em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,9 +94,12 @@ h5{
     color: #FFFFFF;
 }
 
-#castMovie > p,
 #plotMovie > p{
     color: #FFFFFF;
     margin: 10px 0;
     font-size: 1em;
+}
+
+#plotMovie{
+    margin-top: 3em;
 }

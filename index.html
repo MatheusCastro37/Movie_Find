@@ -27,41 +27,15 @@
     <main id="container">
         <nav class="search">
             <input type="text" name="nameMovie" id="Movie" placeholder="Pesquise um filme...">
-            <button id="searchMovie"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button id="searchMovie" onclick="findMovie()"><i class="fa-solid fa-magnifying-glass"></i></button>
         </nav>
 
-        <section class="infos">
-            <img id="posterMovie" src="assets/joker.jpg" alt="Poster do filme Coringa.">
-            <div class="infosMovie">
-                <h4 id="movieTitle">Coringa</h4>
-                <h5 id="movieScore"><i class="fa-solid fa-star"></i> 8.4</h5>
-                <div id="genres">
-                    <p class="type">Drama</p>
-                    <p class="type">Thriller</p>
-                    <p class="type">Crime</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="detailsMovie">
-            <p id="classification">R</p>
-            <p id="yearLaunch">2019</p>
-            <p id="timeMovie">122 min</p>
-        </section>
-
-        <section id="plotMovie">
-            <h5>Plot:</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus placeat nam eaque, magnam libero numquam praesentium, repellat enim quam architecto maxime corporis. Dolorum, aspernatur incidunt quaerat quis expedita voluptate repellendus.</p>
-        </section>
-
-        <section id="castMovie">
-            <h5>Cast:</h5>
-            <p>Joaquin phoenix, zazia bell</p>
-        </section>
+        <div id="showMovie">
+            
+        </div>
     </main>
 
-
+    <script src="assets/js/movieDetails.js"></script>
     <script src="assets/js/main.js"></script>
-
 </body>
 </html>
