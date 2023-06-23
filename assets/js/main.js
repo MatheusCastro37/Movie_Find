@@ -63,6 +63,10 @@ function showDetailsMovie(details) {
 
 function verificarErro() {
   const container = document.querySelector('#showMovie')
-
-  container.innerHTML = ``
+  container.innerHTML = `
+    <div id="errorMovie">
+      <img id="error404" src="assets/img/error404.png" alt="Erro">
+      <p id="messageError">Filme não encontrado!</p>
+    </div>
+  `
 }
