@@ -123,3 +123,7 @@ p#messageError{
     font-size: 25px;
     color: #b5e0e9;
 }
+
+.searchMovie > img{
+    width: 100%;
+}
